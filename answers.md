@@ -1,16 +1,10 @@
 ### 1. State and Explain the components of a DBMS(Database Management System)
 ```bash
-A Database Management System (DBMS) is software that manages and organizes data. It has several key components:
+- Software: This includes the DBMS software that manages the database, handles user queries, processes data, ensures security, and maintains data integrity (e.g., the database engine and query processor).
 
-- Database Engine*: Handles data storage, retrieval, and manipulation.
-- Database Schema: Defines the structure of the database ( tables, columns, relationships ).
-- Query Processor: Executes and optimizes queries.
-- Transaction Management: Ensures reliable, consistent transactions with ACID properties.
-- Data Dictionary: Stores metadata ( information about the data structure ).
-- Storage Management: Manages physical storage and efficient data retrieval.
-- Security and Authorization: Controls user access and data protection.
-- Backup and Recovery: Ensures data can be recovered in case of failure.
-- Interface and APIs: Allows users and applications to interact with the database.
+- Hardware: The physical devices like servers, storage systems (hard drives, SSDs), and input/output devices (monitors, keyboards) that support the running of the DBMS and store the data.
+
+- Data: The actual data stored in the database, including tables, records, and metadata, along with the structures (e.g., relational models) that define how the data is organized and accessed.
 ```
 
 ### 2. What is a relational database? Give 4 examples.
